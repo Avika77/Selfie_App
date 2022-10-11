@@ -1,0 +1,26 @@
+body{
+background-size: cover;
+background-repeat:no-repeat;
+
+}
+#snap {
+    position: relative;
+    top: 500px;
+    left: 270px;
+}
+
+canvas {
+    animation-name: change_color;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes change_color {
+    from {
+        box-shadow: 1px 1px 38px orange;
+    }
+
+    to {
+        box-shadow: 1px 1px 38px hotpink;
+    }
+}
